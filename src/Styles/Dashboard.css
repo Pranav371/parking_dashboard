@@ -1,0 +1,290 @@
+/**
+ * @license
+ *
+ * Font Family: Satoshi
+ * Designed by: Deni Anggara
+ * URL: https://www.fontshare.com/fonts/satoshi
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Satoshi Variable(Variable font)
+ * Satoshi Variable Italic(Variable font)
+ * Satoshi Light
+ * Satoshi Light Italic
+ * Satoshi Regular
+ * Satoshi Italic
+ * Satoshi Medium
+ * Satoshi Medium Italic
+ * Satoshi Bold
+ * Satoshi Bold Italic
+ * Satoshi Black
+ * Satoshi Black Italic
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('../fonts/Satoshi-Variable.woff') format('woff'),
+       url('../fonts/Satoshi-Variable.ttf') format('truetype');
+       font-weight: 300 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'Satoshi-VariableItalic';
+  src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-VariableItalic.woff') format('woff'),
+       url('../fonts/Satoshi-VariableItalic.ttf') format('truetype');
+       font-weight: 300 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+       url('../fonts/Satoshi-Light.woff') format('woff'),
+       url('../fonts/Satoshi-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-LightItalic';
+  src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-LightItalic.woff') format('woff'),
+       url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('../fonts/Satoshi-Regular.woff') format('woff'),
+       url('../fonts/Satoshi-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Italic';
+  src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
+       url('../fonts/Satoshi-Italic.woff') format('woff'),
+       url('../fonts/Satoshi-Italic.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('../fonts/Satoshi-Medium.woff') format('woff'),
+       url('../fonts/Satoshi-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-MediumItalic';
+  src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
+       url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../fonts/Satoshi-Bold.woff') format('woff'),
+       url('../fonts/Satoshi-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-BoldItalic';
+  src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-BoldItalic.woff') format('woff'),
+       url('../fonts/Satoshi-BoldItalic.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
+       url('../fonts/Satoshi-Black.woff') format('woff'),
+       url('../fonts/Satoshi-Black.ttf') format('truetype');
+       font-weight: 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi-BlackItalic';
+  src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-BlackItalic.woff') format('woff'),
+       url('../fonts/Satoshi-BlackItalic.ttf') format('truetype');
+       font-weight: 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+
+
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    font-family: 'Satoshi-Bold';
+}
+
+.date-time{
+    font-family: 'Satoshi-Medium';
+    color: #003554;
+    font-size: 1.2rem;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  gap: 2%;
+}
+
+/* table  */
+.vehicle-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: 'Satoshi-Bold';
+  padding: 1%;
+}
+
+.header a{
+  text-decoration: none;
+  color: black;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.view-all {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.vehicle-table th {
+  background-color: #f8f9fa;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.vehicle-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #dee2e6;
+  color: #444;
+}
+
+.vehicle-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .vehicle-container {
+    padding: 15px;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+.charts{
+  height: 100vh;
+}
